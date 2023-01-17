@@ -4,7 +4,7 @@ function get_calc(btn) {
       } else if (btn.value == "C") {
         document.dentaku.display.value = "";
       } else if(btn.value == "π") {
-        btn.value = "3.14152653589793";
+        btn.value = "3.14159265";
       } else {
         if (btn.value == "×") {
           btn.value = "*";
