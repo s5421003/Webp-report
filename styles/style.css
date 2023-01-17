@@ -21,6 +21,7 @@ html {
   button {
     width: 10em;
     height:3em;
+    font-size: 200%;
   }
   
   body {
