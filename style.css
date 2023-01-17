@@ -30,26 +30,4 @@
       border-left: solid #b6b6b6 6px;
       border-radius: 5px;
     }
-    .operator {
-      background-color: #87cefa;
-    }
-    .equal {
-      background-color: #b6b6b6;
-    }
-
-    input:hover {
-      background: #747373b9;
-    }
-    .display:hover {
-      background: #ffffff;
-    }
-    .operator:hover {
-      background: #339cdd;
-    }
-
-    input:active {
-      background:  #5a5a5a;
-    }
-    .operator:active {
-      background: #2c80b4;
-    }
+    
