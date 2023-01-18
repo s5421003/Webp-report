@@ -3,6 +3,9 @@ function get_calc(btn) {
         document.dentaku.display.value = eval(document.dentaku.display.value);
       } else if (btn.value == "C") {
         document.dentaku.display.value = "";
+      } else if(btn.value == "e") {
+        btn.value = Math.E;
+        document.dentaku.pi_btn.value = "e";
       } else if(btn.value == "π") {
         btn.value = Math.PI;
         document.dentaku.pi_btn.value = "π";
