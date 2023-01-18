@@ -24,11 +24,11 @@ function get_calc(btn) {
             document.dentaku.display.value += btn.value;
             document.dentaku.add_btn.value = "×";
             document.dentaku.div_btn.value = "÷";
-            document.dentaku.pi_btn.value = "e";
+            document.dentaku.nei_btn.value = "e";
             document.dentaku.pi_btn.value = "π";
-            document.dentaku.pi_btn.value = "sin";
-            document.dentaku.pi_btn.value = "cos";
-            document.dentaku.pi_btn.value = "tan";
-            document.dentaku.pi_btn.value = "log";
+            document.dentaku.sin_btn.value = "sin";
+            document.dentaku.cos_btn.value = "cos";
+            document.dentaku.tan_btn.value = "tan";
+            document.dentaku.log_btn.value = "log";
       }
     }
