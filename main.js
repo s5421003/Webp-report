@@ -5,21 +5,21 @@ function get_calc(btn) {
             document.dentaku.display.value = "";
       } else {
         if (btn.value == "×") {
-          btn.value = "*";
+              btn.value = "*";
         } else if (btn.value == "÷") {
-          btn.value = "/";
+              btn.value = "/";
         } else if(btn.value == "e") {
-          btn.value = Math.E;
+              btn.value = Math.E;
         }　else if(btn.value == "π") {
-          btn.value = Math.PI;
+              btn.value = Math.PI;
         } else if(btn.value == "sin") {
-          btn.value = Math.sin;
+              btn.value = Math.sin;
         } else if(btn.value == "cos") {
-          btn.value = Math.cos;
+              btn.value = Math.cos;
         } else if(btn.value == "tan") {
-          btn.value == Math.tan;
+              btn.value == Math.tan;
         } else if(btn.value == "log") {
-          btn.value == Math.log;
+              btn.value == Math.log;
         }
             document.dentaku.display.value += btn.value;
             document.dentaku.add_btn.value = "×";
