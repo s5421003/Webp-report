@@ -13,13 +13,13 @@ function get_calc(btn) {
         }　else if(btn.value == "π") {
               btn.value = Math.PI;
         } else if(btn.value == "sin") {
-              btn.value = Math.sin;
+              btn.value = Math.sin(x);
         } else if(btn.value == "cos") {
-              btn.value = Math.cos;
+              btn.value = Math.cos(x);
         } else if(btn.value == "tan") {
-              btn.value == Math.tan;
+              btn.value == Math.tan(x);
         } else if(btn.value == "log") {
-              btn.value == Math.log;
+              btn.value == Math.log(x);
         }
             document.dentaku.display.value += btn.value;
             document.dentaku.add_btn.value = "×";
