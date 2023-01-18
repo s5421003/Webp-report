@@ -5,8 +5,16 @@ function get_calc(btn) {
         document.dentaku.display.value = "";
       } else if(btn.value == "π") {
         btn.value = Math.PI;
+        document.dentaku.pi_btn.value = "π";
       } else if(btn.value == "sin") {
-        btn.value = "Math.sin";
+        btn.value = Math.sin;
+        document.dentaku.pi_btn.value = "sin";
+      } else if(btn.value == "cos") {
+        btn.value = Math.cos;
+        document.dentaku.pi_btn.value = "cos";
+      } else if(btn.value == "tan") {
+        btn.value == Math.tan;
+        document.dentaku.pi_btn.value = "tan";
       } else {
         if (btn.value == "×") {
           btn.value = "*";
