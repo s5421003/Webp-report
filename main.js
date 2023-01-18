@@ -18,6 +18,9 @@ function get_calc(btn) {
       } else if(btn.value == "tan") {
         btn.value == Math.tan;
         document.dentaku.pi_btn.value = "tan";
+      } else if(btn.value == "log") {
+        btn.value == Math.log;
+        document.dentaku.pi_btn.value = "log";
       } else {
         if (btn.value == "×") {
           btn.value = "*";
