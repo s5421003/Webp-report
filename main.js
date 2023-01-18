@@ -13,16 +13,12 @@ function get_calc(btn) {
       } else if(btn.value == "π") {
             btn.value = Math.PI;
       } else if(btn.value == "sin") {
-            // btn.value = Math.sin(document.dentaku.display.value);
             document.dentaku.display.value = eval(Math.sin(document.dentaku.display.value * Math.PI / 180));
       } else if(btn.value == "cos") {
-            // btn.value = Math.cos(document.dentaku.display.value);
             document.dentaku.display.value = eval(Math.cos(document.dentaku.display.value * Math.PI / 180));
       } else if(btn.value == "tan") {
-            // btn.value = Math.tan(document.dentaku.display.value);
             document.dentaku.display.value = eval(Math.tan(document.dentaku.display.value * Math.PI / 180));
       } else if(btn.value == "log") {
-            // btn.value = Math.log(document.dentaku.display.value);
             document.dentaku.display.value = eval(Math.log(document.dentaku.display.value));
       } else if(btn.value == "a^2") {
             document.dentaku.display.value = eval(Math.pow(document.dentaku.display.value, 2));
